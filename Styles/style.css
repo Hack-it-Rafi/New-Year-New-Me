@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+/* Header section */
+.header{
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    text-align: right;
+    height: 808px;
+    background-image: url('../images/banner/banner1.png');
+    width: 100%;
+}
+.content{
+    
+}
+.head{
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 216px;
+    padding-right: 200px;
+    margin-bottom: 24px;
+}
+.para{
+    width: 525px;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-prime{
+    margin-right: 200px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Header Done */
+
+/* person failure */
+.failure{
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.person{
+    width: 400px;
+}
+.fail-head{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fail-para{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    margin-bottom: 16px;
+}
+.fail-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.fail-list li:before {
+    content: '✓';
+  }
+  /* Failure done */
+
+/* Plans */
+.plans{
+    margin-bottom: 120px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px 150px;
+}
+.icon{
+    text-align: center;
+}
+.icon-img{
+    width: 80px;
+}
+.icon-head{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* Call */
+.Call-bg{
+    margin: 0px 150px 95px 150px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Call{
+    height: 300px;
+    width: 1050px;
+    background-image: url('../images/gradient3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    padding-left: 64px;
+}
+.call-head{
+    margin-bottom: 20px;
+    color: white;
+}
