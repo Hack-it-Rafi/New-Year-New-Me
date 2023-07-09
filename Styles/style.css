@@ -49,8 +49,18 @@
     align-items: center;
     justify-content: space-around;
 }
+.round{
+    height: 375px;
+    width: 375px;
+    background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 14px;
+}
 .person{
     width: 400px;
+    position: relative;
 }
 .fail-head{
     font-size: 40px;
